@@ -20,8 +20,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/menu' element={<Menu/>} />
-        <Route path='/menu' element={<Menu/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/make-restorent' element={<MakeRestorent/>} />
         <Route path='/view-list/:id' element={<ViewMenuList/>} />
         <Route path='/add-items/:id' element={<AddItems/>} />
       </Routes>
